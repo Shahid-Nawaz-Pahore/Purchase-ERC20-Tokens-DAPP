@@ -1,0 +1,41 @@
+/* Your existing styles */
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+div {
+    margin: 10px 0;
+}
+
+/* Updated input styles */
+input {
+    width: 50%; /* Set the input box to half the width */
+    padding: 5px;
+}
+
+/* Updated button styles with hover effect */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px; /* Add spacing between buttons */
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+
+    /* Hover effect */
+    &:hover {
+        background-color: #0056b3; /* Change color on hover */
+    }
+}
+
+.output {
+    margin-top: 20px;
+    font-weight: bold;
+}
