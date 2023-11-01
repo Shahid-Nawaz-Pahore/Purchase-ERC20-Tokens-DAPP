@@ -80,10 +80,10 @@ function TokenPurchaseComponent() {
 
     return (
         <div className={styles.container}>
-            <h1>Token Purchase DAPP</h1>
-            <div>
-                <p>Your Token Balance: {tokenBalance} </p>
-                <p>Contract Balance: {contractBalance} ETH</p>
+            <h1>Purchase ERC20 Tokens DAPP</h1>
+            <div className='body'>
+                <h2>Your Token Balance: {tokenBalance} </h2>
+                <h2>Contract Balance: {contractBalance} ETH</h2>
                 <div>
                     <label htmlFor="numberOfTokensToTransfer">Number of Tokens to Transfer:</label>
                     <input
